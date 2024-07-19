@@ -36,8 +36,7 @@
     },
     "autoload": {
         "psr-4": {
-            "RobinThijsen\\LivewireFilters\\": "src/",
-            "RobinThijsen\\LivewireFilters\\Database\\Factories\\": "database/factories/"
+            "RobinThijsen\\LivewireFilters\\": "src/"
         }
     },
     "autoload-dev": {
@@ -74,7 +73,7 @@
     "extra": {
         "laravel": {
             "providers": [
-              "LivewireFiltersServiceProvider"
+              "RobinThijsen\\LivewireFilters\\LivewireFiltersServiceProvider"
             ],
             "aliases": {
                 "LivewireFilters": "RobinThijsen\\LivewireFilters\\Facades\\LivewireFilters"
