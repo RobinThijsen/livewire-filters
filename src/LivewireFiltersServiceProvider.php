@@ -19,17 +19,11 @@ class LivewireFiltersServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('livewire-filters')
-            ->hasConfigFile()
             ->hasViews()
             ->hasTranslations();
     }
 
     public function bootingPackage(): void
-    {
-        $this->registerLivewireComponent();
-    }
-
-    private function registerLivewireComponent(): void
     {
         Livewire::component('radio', Radio::class);
         Livewire::component('checkbox', Checkbox::class);
