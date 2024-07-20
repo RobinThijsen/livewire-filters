@@ -8,7 +8,6 @@ use Illuminate\View\View;
 use Livewire\Attributes\Locked;
 use Livewire\Attributes\Modelable;
 use Livewire\Component;
-use Nette\Utils\Random;
 
 class Radio extends Component
 {
@@ -35,6 +34,6 @@ class Radio extends Component
 
     public function render(): View|Factory|Application
     {
-        return view('livewire-filters::filters.checkbox');
+        return view('livewire-filters::livewire.filters.checkbox');
     }
 }

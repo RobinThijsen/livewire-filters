@@ -55,6 +55,6 @@ class Checkbox extends Component
 
     public function render(): View|Factory|Application
     {
-        return view('livewire-filters::filters.checkbox');
+        return view('livewire-filters::livewire.filters.checkbox');
     }
 }
