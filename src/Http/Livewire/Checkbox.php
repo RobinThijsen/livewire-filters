@@ -1,9 +1,7 @@
 <?php
 
-namespace RobinThijsen\LivewireFilters\Http\Livewire\Filters;
+namespace RobinThijsen\LivewireFilters\Http\Livewire;
 
-use Illuminate\Contracts\View\Factory;
-use Illuminate\Foundation\Application;
 use Illuminate\View\View;
 use Livewire\Attributes\Modelable;
 use Livewire\Component;
@@ -53,8 +51,8 @@ class Checkbox extends Component
         $this->uncheckedAll = false;
     }
 
-    public function render(): View|Factory|Application
+    public function render(): View
     {
-        return view('livewire-filters::livewire.filters.checkbox');
+        return view('livewire-filters::livewire.checkbox');
     }
 }

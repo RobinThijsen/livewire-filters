@@ -1,6 +1,6 @@
 <?php
 
-namespace RobinThijsen\LivewireFilters\Http\Livewire\Filters;
+namespace RobinThijsen\LivewireFilters\Http\Livewire;
 
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Foundation\Application;
@@ -34,6 +34,6 @@ class Radio extends Component
 
     public function render(): View|Factory|Application
     {
-        return view('livewire-filters::livewire.filters.checkbox');
+        return view('livewire-filters::livewire.checkbox');
     }
 }

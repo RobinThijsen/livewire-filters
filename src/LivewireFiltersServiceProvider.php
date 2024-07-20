@@ -3,8 +3,8 @@
 namespace RobinThijsen\LivewireFilters;
 
 use Livewire\Livewire;
-use RobinThijsen\LivewireFilters\Http\Livewire\Filters\Checkbox;
-use RobinThijsen\LivewireFilters\Http\Livewire\Filters\Radio;
+use RobinThijsen\LivewireFilters\Http\Livewire\Checkbox;
+use RobinThijsen\LivewireFilters\Http\Livewire\Radio;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
